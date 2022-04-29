@@ -1,0 +1,6 @@
+[
+  {"currentState":"Initial", "input":"Alpha", "nextState":"Id", "handler":"identifierHandler"},
+  {"currentState":"Initial", "input":"Digital", "nextState":"IntLiteral", "handler":"intLiteralHandler"},
+  {"currentState":"Initial", "input":">", "nextState":"GT", "handler":"GTHandler"},
+  {"currentState":"Initial", "input":"=", "nextState":"Assignment", "handler":"AssignmentHandler"}
+]
